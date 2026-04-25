@@ -1,0 +1,34 @@
+{
+  "entities": {
+    "InterviewSession": {
+      "title": "Interview Session",
+      "description": "A record of an interview session with questions, answers, and AI analysis.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string", "description": "The UID of the user who owns the session." },
+        "role": { "type": "string", "description": "The job role interviewed for." },
+        "level": { "type": "string", "description": "The difficulty level." },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Timestamp of creation." },
+        "sessionData": {
+          "type": "array",
+          "description": "List of questions and answers provided during the session."
+        },
+        "allAnalyses": {
+          "type": "array",
+          "description": "List of AI analyses for each specific answer."
+        },
+        "overallReport": {
+          "type": "object",
+          "description": "The final aggregated report from the AI."
+        }
+      },
+      "required": ["userId", "role", "level", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/sessions/{sessionId}": {
+      "schema": "InterviewSession",
+      "description": "Collection of interview sessions."
+    }
+  }
+}

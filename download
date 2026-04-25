@@ -1,0 +1,107 @@
+[
+  {
+    "role": "Web Developer",
+    "levels": [
+      {
+        "level": "Beginner",
+        "questions": [
+          "Explain the difference between var, let, and const.",
+          "How do you center a div in CSS?",
+          "What is the purpose of the virtual DOM in React?",
+          "Explain the box model in CSS.",
+          "What are semantic HTML tags and why are they important?"
+        ]
+      },
+      {
+        "level": "Intermediate",
+        "questions": [
+          "Tell me about a time you optimized a website's performance.",
+          "Explain how closures work in JavaScript with a real-world example.",
+          "Describe your experience with state management libraries like Redux or Zustand.",
+          "How do you handle cross-browser compatibility issues?",
+          "What is the difference between client-side rendering and server-side rendering?"
+        ]
+      },
+      {
+        "level": "Expert",
+        "questions": [
+          "Explain a complex technical challenge you faced while scaling a frontend application.",
+          "How would you architect a micro-frontend system for a large-scale project?",
+          "Discuss the trade-offs between Server-Side Rendering (SSR) and Incremental Static Regeneration (ISR).",
+          "How do you approach performance monitoring and error tracking in a production environment?",
+          "Describe how you would implement a complex real-time collaborative feature (e.g., Google Docs)."
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Data Analyst",
+    "levels": [
+      {
+        "level": "Beginner",
+        "questions": [
+          "What is the difference between a join and a union in SQL?",
+          "How do you handle missing values in a small dataset?",
+          "Explain the difference between mean, median, and mode.",
+          "What is a primary key and a foreign key in a database?",
+          "Describe the basic steps of a data analysis process."
+        ]
+      },
+      {
+        "level": "Intermediate",
+        "questions": [
+          "Explain a time you used data visualization to communicate insights to stakeholders.",
+          "What is your approach to choosing the right statistical model for an analysis?",
+          "How do you handle data cleaning for an inconsistent dataset with millions of rows?",
+          "Describe a time you found a surprising insight in a dataset. How did you verify it?",
+          "What are the differences between supervised and unsupervised learning?"
+        ]
+      },
+      {
+        "level": "Expert",
+        "questions": [
+          "Describe a project where you used advanced statistical modeling to predict a business outcome.",
+          "How do you ensure data integrity and security across multiple data sources?",
+          "Explain how you would design a data pipeline for real-time analytics.",
+          "How do you approach causal inference in observational data?",
+          "Describe your experience with big data technologies (e.g., Spark, Hadoop) and their use cases."
+        ]
+      }
+    ]
+  },
+  {
+    "role": "Product Manager",
+    "levels": [
+      {
+        "level": "Beginner",
+        "questions": [
+          "What are the key responsibilities of a Product Manager?",
+          "How do you define a Minimum Viable Product (MVP)?",
+          "Explain how you would gather user feedback for a new feature.",
+          "What is the difference between a product and a project?",
+          "How do you prioritize your daily tasks as a PM?"
+        ]
+      },
+      {
+        "level": "Intermediate",
+        "questions": [
+          "Tell me about a time you had to prioritize a product roadmap with limited resources.",
+          "How do you handle a situation where data and stakeholder feedback contradict each other?",
+          "Describe a product you love and how you would improve it based on current market trends.",
+          "How do you define and track success metrics for a new product launch?",
+          "Describe a time you had to say 'no' to a major stakeholder. How did you handle it?"
+        ]
+      },
+      {
+        "level": "Expert",
+        "questions": [
+          "Explain your strategy for leading a cross-functional team through a major product pivot.",
+          "How do you balance short-term revenue goals with long-term product vision?",
+          "Describe how you would enter a new market with a legacy product.",
+          "How do you manage product growth and technical debt simultaneously?",
+          "How do you foster a culture of innovation within a large product organization?"
+        ]
+      }
+    ]
+  }
+]
